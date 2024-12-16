@@ -1,7 +1,14 @@
 {{ define "main" }}
+
 <h2>{{ .Site.Params.DescriptionTitle }}</h2>
 <p>{{ .Site.Params.Description }}</p>
-<hr>
-<a href="{{ .Site.BaseURL }}page/">Link (temp)</a>
-<a href="{{ .Site.BaseURL }}/posts/making-a-hugo-theme/">Another temp. link</a>
+
+<div class="social-icons">
+    {{ range .Site.Params.socials }}
+      <a href="{{ .url }}" target="_blank" rel="noopener noreferrer">
+        <i class="bi bi-{{ .name }}"></i>
+      </a>
+    {{ end }}
+</div>   
+
 {{ end }}

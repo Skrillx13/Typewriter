@@ -1,3 +1,26 @@
-.anchorjs a {
-    text-decoration: none;
+.breadcrumbs {
+    margin-top: 10px;
+    margin-bottom: 5px;
 }
+
+.site-header {
+    padding-top: 3%;
+}
+
+.social-icons {
+    margin-top: 8px;
+    display: inline-flex;
+    gap: 16px;
+  }
+  
+  .social-icons a {
+    color: #333;
+    text-decoration: none;
+    font-size: 1.5rem;
+    transition: color 0.3s ease;
+  }
+  
+  .social-icons a:hover {
+    color: #007bff;
+  }
+  

@@ -5,16 +5,22 @@ languageCode: en-us
 
 # -- Website Configuration --
 params:
-  descriptionTitle: "Hi!"
+  descriptionTitle: "Welcome to Typewriter."
   description: >-
-    I am an Italian Software Engineer with a strong foundation in computer science and a passion for solving complex problems. I am interested in a various topics, including algorithms, distributed systems, databases, and information retrieval.
-    Feel free to read about myself or to look at my posts.
+    Typewriter is another simple Hugo theme. it is based on Typo, and does some things such as changing the colors &
+    fonts, adding more layouts, and including a dark mode. Documentation is available under the Docs section.
   nav:
     - name: Home
       url: 
-    - name: About
-      url: about/
-    - name: Pages
-      url: pages/
-    - name: Posts
-      url: posts/
+    - name: Docs
+      url: docs/
+  socials:
+    - name: github
+      url: https://github.com/Skrillx13/Typewriter
+
+# -- Extra Configuration --
+markup:
+  goldmark:
+    parser:
+      attribute:
+        block: true

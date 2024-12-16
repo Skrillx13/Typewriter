@@ -1,0 +1,34 @@
+name = 'Typewriter'
+license = 'GNU V3.0'
+licenselink = 'https://github.com/tomfran/typo/blob/main/LICENSE'
+description = 'Yet another simple Hugo theme. Based on Typo.'
+
+homepage = 'https://github.com/Skrillx13/Typewriter'
+
+tags = [
+    "responsive",
+    "simple",
+    "clean",
+    "light",
+    "dark",
+    "blog",
+    "minimal",
+    "personal",
+    "portfolio",
+]
+
+features = [
+    "responsive",
+    "blog",
+    "table-of-contents",
+    "highlight.js",
+    "favicon",
+    "social-icons",
+    "minified-assets",
+    "dark-light-images",
+    "color-palettes",
+]
+
+[author]
+name = 'Francesco Tomaselli'
+homepage = 'https://tomfran.github.io/'
