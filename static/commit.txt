@@ -1,0 +1,1 @@
+this is just to ensure the static folder gets commited
