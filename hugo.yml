@@ -7,4 +7,14 @@ languageCode: en-us
 params:
   descriptionTitle: "Hi!"
   description: >-
-    This is the description. You can write anything you want here.
+    I am an Italian Software Engineer with a strong foundation in computer science and a passion for solving complex problems. I am interested in a various topics, including algorithms, distributed systems, databases, and information retrieval.
+    Feel free to read about myself or to look at my posts.
+  nav:
+    - name: Home
+      url: 
+    - name: About
+      url: about/
+    - name: Pages
+      url: pages/
+    - name: Posts
+      url: posts/

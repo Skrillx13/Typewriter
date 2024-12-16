@@ -1,8 +1,15 @@
 {{ define "main" }}
 {{ partial "breadcrumbs.html" . }}
+<h1>{{ .Page.Title }}</h1>
+<p>{{ .Page.Description }}</p>
 {{ $dateMachine := .Date | time.Format "2006-01-02T15:04:05-07:00" }}
 {{ $dateHuman := .Date | time.Format ":date_long" }}
 <time datetime="{{ $dateMachine }}">{{ $dateHuman }}</time>
-<h1>{{ .Page.Title }}</h1>
+·
+<span class="minute-read">
+    {{ $readTime := math.Ceil (div .WordCount 200) }}
+    {{ $readTime }} minute read
+</span>  
+
 {{ .Content }}
 {{ end }}

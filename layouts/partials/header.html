@@ -1,1 +1,7 @@
 <h1 class="site-header"><a href="{{ site.BaseURL }}">{{ .Site.Title }}</a></h1>
+<div class="navigation">
+    {{ range .Site.Params.nav }}
+    <a href="{{ .url | absURL }}">{{ .name |upper }}</a> ·
+    {{ end }}
+</div>
+<hr>
