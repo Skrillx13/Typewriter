@@ -1,3 +1,10 @@
 # -- Website Information --
 title: Typewriter
-baseURL: https://skrillx13.github.io/Typewriter
+baseURL: https://skrillx13.github.io/Typewriter/
+languageCode: en-us
+
+# -- Website Configuration --
+params:
+  descriptionTitle: "Hi!"
+  description: >-
+    This is the description. You can write anything you want here.
