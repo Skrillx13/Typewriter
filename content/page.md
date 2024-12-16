@@ -1,5 +1,6 @@
 ---
 layout: page
+title: Example Page
 ---
 
-whats up
+This Page is a generic testing page for the Typewriter theme.

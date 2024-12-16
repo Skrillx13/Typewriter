@@ -1,18 +1,37 @@
 @import "typography";
+@import "colors";
 @import "variables";
 
 body {
     background-color: #fffff8;
     padding-left: $main-padding;
     padding-right: $main-padding;
-    padding-top: 20px;
 }
 
 @media only screen and (max-width: 780px) {
     body {
-        background-color: #fffff8;
+        background-color: $light-background-color;
         padding-left: $mobile-main-padding;
         padding-right: $mobile-main-padding;
         padding-top: 3px;
     }
+}
+
+.site-header {
+    font-size: 2.6em;
+    font-weight: bold;
+  }
+  
+.site-header a {
+    font-family: "DM Serif Text", serif;
+    text-decoration: none;
+}
+
+footer {
+    padding-bottom: 13px;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    position: fixed;
+    text-align: center;
 }

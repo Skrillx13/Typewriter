@@ -1,0 +1,14 @@
+<footer>
+    {{ $Generator := default true .Site.Params.Generator }}
+    {{ if $Generator }}
+        {{ if not .Site.Params.Generator }}
+        <p>
+            Created with <a href="https://gohugo.io/" target="_blank">Hugo</a> and the <a href="https://github.com/Skrillx13/Typewriter" target="_blank">Typewriter</a> theme.
+        </p>
+        {{ end }}
+        
+        {{ with .Site.Params.FooterContent }}
+        <p>{{ . | markdownify }}</p>
+    {{ end }}
+    {{ end }}
+</footer>

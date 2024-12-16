@@ -3,9 +3,13 @@
 
 {{ partial "head.html" . }}
 
+{{ partial "header.html" . }}
+
 <body>
     {{ block "main" . }}{{ end }}
     {{ partial "javascripts.html" . }}
 </body>
+
+{{ partial "footer.html" . }}
 
 </html>
